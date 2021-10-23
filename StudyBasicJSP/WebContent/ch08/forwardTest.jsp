@@ -7,10 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%request.setCharacterEncoding("utf-8"); %>
-<%String name= request.getParameter("name"); %>
-
-포함되는 페이지 includedpage.jsp입니다.<br>`
-<%=name %>님 오셨군요
+forwardToTest.jsp
+<jsp:forward page="forwardToTest.jsp"/>
 </body>
 </html>
