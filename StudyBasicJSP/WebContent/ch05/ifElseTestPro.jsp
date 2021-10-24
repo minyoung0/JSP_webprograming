@@ -20,6 +20,6 @@ else
 	out.println("<b>"+name+"</b>님은 미성년입니다");
 	}
 %>
-</form> 
+
 </body>
 </html>
