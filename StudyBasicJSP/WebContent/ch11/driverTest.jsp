@@ -11,11 +11,11 @@
 <%Connection conn=null;
 
 try{
-	String jdbcUrl="jdbc:mysql://localhost:3306/basicjsp";
+	String jdbcUrl="jdbc:mysql://127.0.0.1:3306/my";
 	String dbId="root";
 	String dbPass="1234";
 	
-	Class.forName("com.mysql.jdbc.Driver");
+	Class.forName("com.mysql.cj.jdbc.Driver");
 	conn=DriverManager.getConnection(jdbcUrl,dbId,dbPass);
 	out.println("제대로 연결되었습니다.");
 }catch(Exception e){
