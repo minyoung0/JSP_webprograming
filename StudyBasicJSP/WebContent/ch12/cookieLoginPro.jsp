@@ -19,7 +19,7 @@
 	history.go(-1);
 </script>
 <%}
-	else{%>
+	else{%>  
 <script>
 	alert("아이디가 맞지 않습니다");
 	history.go(-1);
