@@ -3,7 +3,7 @@
     <%
     String id="";
     try{
-    	Cookie[] cookies=request.getCookies();
+    	Cookie[] cookies=request.getCookies();//웹 브라우저에 저장된 쿠키를 모두 cookies 배열에 저장한다.
     	if(cookies!=null){
     		for(int i=0;i<cookies.length;i++){
     			if(cookies[i].getName().equals("id")){
