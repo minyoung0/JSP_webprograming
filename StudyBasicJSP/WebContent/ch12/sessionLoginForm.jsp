@@ -11,7 +11,7 @@
 		아이디:<input type="text" name="id" maxlength="50"><br>
 		패스워드:<input type="text" name="passwd" maxlength="16"><br>
 		<input type="submit" value="로그인"> <input type="button"
-			value="회원가입" onclick.href='insertMemberForm.jsp'>
+			value="회원가입" onclick="location.href='insertMemberForm.jsp'">
 
 	</form>
 </body>
