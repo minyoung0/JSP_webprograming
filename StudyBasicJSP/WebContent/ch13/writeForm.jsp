@@ -62,7 +62,7 @@
 			<tr>
 				<td width="70" bgcolor="<%=value_c%>" align="center">내용</td>
 				<td width="330" align="left"><textarea name="content" rows="13"
-						cols="40" style="ime-modee: active;"></textarea></td>
+						cols="40" style="ime-mode: active;"></textarea></td>
 
 				<!-- active:한글 -->
 			</tr>
