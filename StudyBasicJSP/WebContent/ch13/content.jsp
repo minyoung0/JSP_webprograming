@@ -11,8 +11,9 @@
 <title>게시판</title>
 <link href="style.css" rel="stylesheet" type="tet/css">
 </head>
-<body bgcolor="<%=bodyback_c %>">
-<%int num=Integer.parseInt(request.getParameter("num"));
+<body bgcolor="<%=bodyback_c%>">
+<%
+int num=Integer.parseInt(request.getParameter("num"));
 String pageNum=request.getParameter("pageNum");
 SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd HH:mm");
 try{
@@ -21,7 +22,6 @@ try{
 	int ref=article.getRef();
 	int re_step=article.getRe_step();
 	int re_level=article.getRe_level();
-
 %>
 <p>글내용 보기</p>
 <form>
