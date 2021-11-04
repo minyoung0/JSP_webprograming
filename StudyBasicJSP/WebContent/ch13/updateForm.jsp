@@ -22,7 +22,7 @@ try{
 	<br>
 	<form method="post" name="writeform"
 		action="updatePro.jsp?pageNum=<%=pageNum %>"
-		onsumbit="return writeSave()"> <!-- submit 버튼을 누르면 writesave함수가 실행되고 그 결과값을 리턴한다 -->
+		onsubmit="return writeSave()"> <!-- submit 버튼을 누르면 writesave함수가 실행되고 그 결과값을 리턴한다 -->
 		<table>
 			<tr>
 				<td width="70" bgcolor="<%=value_c %>" align="center">이름</td>
