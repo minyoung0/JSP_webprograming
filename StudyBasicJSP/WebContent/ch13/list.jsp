@@ -77,7 +77,7 @@ number = count - (currentPage - 1) * pageSize;
 					<%=article.getSubject()%></a> <%
  if (article.getReadcount() >= 20) {
  %> <img
-				src="images/hot.gif" border="0" height="16"> <%
+				src="images/hot.png" border="0" height="16"> <%
  }
  %>
 			</td>
