@@ -1,5 +1,5 @@
 function writeSave(){
-	eval writeform = document.writeform;
+	var writeform = document.writeform;
 	
 	if(!writeform.writer.value){
 	  alert("작성자를 입력하십시요.");
